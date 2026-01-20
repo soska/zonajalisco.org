@@ -1,0 +1,52 @@
+{% from "icons.njk" import arrowLeft %}
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Zona Jalisco</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body class="bg-gray-50 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-white text-gray-500 p-4 border-b border-gray-200 shadow-sm sticky top-0 z-10">
+      <header class="container mx-auto flex gap-2">
+        <h1 class="font-bold text-gray-700 pr-2 border-r border-gray-200">Zona Jalisco</h1>
+        <h2 class="text-gray-600">{{ subtitle | default("Calendario de Eventos") }}</p>
+      </header>
+    </header>
+
+    <div class="flex-1">
+
+      <!-- Navigation -->
+      {% if showBackLink %}
+        <nav class="bg-white shadow">
+          <div class="container mx-auto px-4 py-3">
+            <a href="/" class="text-jalisco-blue hover:underline inline-flex items-center gap-1">{{ arrowLeft() }} Volver a todos los eventos</a>
+          </div>
+        </nav>
+      {% endif %}
+
+      <!-- Main Content -->
+      <main class="container mx-auto px-4 py-12">
+        {{ content | safe }}
+      </main>
+    </div>
+
+    <!-- links -->
+
+    <!-- Footer -->
+    <footer>
+      <nav class="bg-blue-100">
+        <div class="container mx-auto py-8">
+          {% include "filters.njk" %}
+        </div>
+      </nav>
+      <div class="bg-gray-800">
+        <div class="container mx-auto p-4 text-center">
+          <p class="text-gray-400">&copy; 2026 Zona Jalisco. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

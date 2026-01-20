@@ -1,0 +1,41 @@
+{% from "icons.njk" import calendar,
+mapPin,
+clock,
+users,
+folder %}
+<article class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+  <!-- Date Banner -->
+  <div class="p-3 px-4 bg-gray-200 flex items-center gap-2 border-b border-gray-300">
+    {{ calendar() }}
+    <p class="font-semibold uppercase text-xs text-gray-600">{{ event.fecha }}</p>
+  </div>
+
+  <!-- Event Content -->
+  <div class="p-5">
+    <header class="flex flex-col gap-2">
+      <a
+    href="/departamento/{{ event.departamento | slugify }}/"
+    class="text-white/80 hover:text-white bg-blue-600 hover:bg-orange-600 py-1 px-2 rounded-md text-sm inline-block visited:bg-purple-700 self-start transition-colors">
+        {{ event.departamento }}
+      </a>
+      <h3 class="text-xl font-bold text-gray-800 mb-2">{{ event.titulo }}</h3>
+    </header>
+    <p class="text-gray-600 mb-4">{{ event.descripcion }}</p>
+
+    <!-- Event Details -->
+    <div class="space-y-2 text-sm border border-gray-200 p-2 rounded-md bg-gray-50">
+      <div class="flex items-center gap-2">
+        <span class="text-gray-500">{{ mapPin() }}</span>
+        <a href="/sede/{{ event.sede | slugify }}/" class="text-blue-700 hover:underline hover:text-orange-700 visited:text-purple-700">{{ event.sede }}</a>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="text-gray-500">{{ clock() }}</span>
+        <span class="text-gray-600">{{ event.horario }}</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="text-gray-500">{{ users() }}</span>
+        <a href="/audiencia/{{ event.audiencia | slugify }}/" class="text-blue-700 hover:underline hover:text-orange-700 visited:text-purple-700">{{ event.audiencia }}</a>
+      </div>
+    </div>
+  </div>
+</article>

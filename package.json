@@ -1,0 +1,18 @@
+{
+  "name": "zonajalisco-events",
+  "version": "1.0.0",
+  "description": "Events calendar for Zona Jalisco",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/css/styles.css -o ./_site/css/styles.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/css/styles.css -o ./_site/css/styles.css --watch",
+    "build:eleventy": "npx @11ty/eleventy",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "build": "npm run build:css && npm run build:eleventy",
+    "dev": "npm run build:css && npm-run-all --parallel watch:*"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^3.4.1"
+  }
+}

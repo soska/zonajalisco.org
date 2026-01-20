@@ -1,0 +1,47 @@
+[
+  {
+    "fecha": "15 de Enero, 2026",
+    "titulo": "Taller de Artesanías Tradicionales",
+    "descripcion": "Aprende a crear hermosas artesanías típicas de Jalisco con maestros artesanos locales.",
+    "departamento": "Cultura",
+    "sede": "Casa de la Cultura, Guadalajara",
+    "horario": "10:00 AM - 2:00 PM",
+    "audiencia": "Público general"
+  },
+  {
+    "fecha": "22 de Enero, 2026",
+    "titulo": "Concierto de Mariachi",
+    "descripcion": "Disfruta de una noche mágica con los mejores mariachis de la región interpretando clásicos mexicanos.",
+    "departamento": "Música",
+    "sede": "Teatro Degollado, Guadalajara",
+    "horario": "7:00 PM - 10:00 PM",
+    "audiencia": "Público general"
+  },
+  {
+    "fecha": "5 de Febrero, 2026",
+    "titulo": "Festival Gastronómico Jalisciense",
+    "descripcion": "Degusta los platillos más representativos de nuestra cocina: birria, tortas ahogadas, tejuino y más.",
+    "departamento": "Gastronomía",
+    "sede": "Plaza de Armas, Guadalajara",
+    "horario": "12:00 PM - 8:00 PM",
+    "audiencia": "Público general"
+  },
+  {
+    "fecha": "14 de Febrero, 2026",
+    "titulo": "Exposición de Arte Contemporáneo",
+    "descripcion": "Muestra colectiva de artistas jaliscienses emergentes explorando la identidad regional.",
+    "departamento": "Arte",
+    "sede": "Museo de Arte de Zapopan (MAZ)",
+    "horario": "9:00 AM - 6:00 PM",
+    "audiencia": "Público general"
+  },
+  {
+    "fecha": "1 de Marzo, 2026",
+    "titulo": "Carrera Atlética Zona Jalisco",
+    "descripcion": "Participa en nuestra carrera anual de 5K y 10K por las calles históricas de la ciudad.",
+    "departamento": "Deportes",
+    "sede": "Glorieta de la Minerva, Guadalajara",
+    "horario": "6:30 AM - 11:00 AM",
+    "audiencia": "Público general"
+  }
+]
