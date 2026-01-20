@@ -1,47 +1,353 @@
 [
   {
-    "fecha": "15 de Enero, 2026",
-    "titulo": "Taller de Artesanías Tradicionales",
-    "descripcion": "Aprende a crear hermosas artesanías típicas de Jalisco con maestros artesanos locales.",
-    "departamento": "Cultura",
-    "sede": "Casa de la Cultura, Guadalajara",
-    "horario": "10:00 AM - 2:00 PM",
-    "audiencia": "Público general"
+    "fecha": "8-10 de Enero, 2026",
+    "titulo": "Retiro",
+    "descripcion": "",
+    "departamento": "JNI Nacional",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
   },
   {
-    "fecha": "22 de Enero, 2026",
-    "titulo": "Concierto de Mariachi",
-    "descripcion": "Disfruta de una noche mágica con los mejores mariachis de la región interpretando clásicos mexicanos.",
-    "departamento": "Música",
-    "sede": "Teatro Degollado, Guadalajara",
-    "horario": "7:00 PM - 10:00 PM",
-    "audiencia": "Público general"
+    "fecha": "24 de Enero, 2026",
+    "titulo": "1er Competencia Esgrima",
+    "descripcion": "",
+    "departamento": "JNI Zona",
+    "sede": "IDN Sinaí",
+    "horario": "",
+    "audiencia": ""
   },
   {
-    "fecha": "5 de Febrero, 2026",
-    "titulo": "Festival Gastronómico Jalisciense",
-    "descripcion": "Degusta los platillos más representativos de nuestra cocina: birria, tortas ahogadas, tejuino y más.",
-    "departamento": "Gastronomía",
-    "sede": "Plaza de Armas, Guadalajara",
-    "horario": "12:00 PM - 8:00 PM",
-    "audiencia": "Público general"
+    "fecha": "24 de Enero, 2026",
+    "titulo": "Capacitación",
+    "descripcion": "",
+    "departamento": "MNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "31 de Enero, 2026",
+    "titulo": "Capacitación MEBI",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "IDN Sinaí",
+    "horario": "",
+    "audiencia": ""
   },
   {
     "fecha": "14 de Febrero, 2026",
-    "titulo": "Exposición de Arte Contemporáneo",
-    "descripcion": "Muestra colectiva de artistas jaliscienses emergentes explorando la identidad regional.",
-    "departamento": "Arte",
-    "sede": "Museo de Arte de Zapopan (MAZ)",
-    "horario": "9:00 AM - 6:00 PM",
-    "audiencia": "Público general"
+    "titulo": "Reunión de Amor y Amistad",
+    "descripcion": "",
+    "departamento": "JNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
   },
   {
-    "fecha": "1 de Marzo, 2026",
-    "titulo": "Carrera Atlética Zona Jalisco",
-    "descripcion": "Participa en nuestra carrera anual de 5K y 10K por las calles históricas de la ciudad.",
-    "departamento": "Deportes",
-    "sede": "Glorieta de la Minerva, Guadalajara",
-    "horario": "6:30 AM - 11:00 AM",
-    "audiencia": "Público general"
+    "fecha": "21 de Febrero, 2026",
+    "titulo": "MNI Distrito Oración",
+    "descripcion": "",
+    "departamento": "MNI Distrito",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "28 de Febrero, 2026",
+    "titulo": "2a Competencia Esgrima",
+    "descripcion": "",
+    "departamento": "JNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "28 de Febrero, 2026",
+    "titulo": "Plenitud de vida",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Parque Metropolitano",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "6 de Marzo, 2026",
+    "titulo": "Vigilia de oración",
+    "descripcion": "",
+    "departamento": "MNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "7 de Marzo, 2026",
+    "titulo": "Semillas del saber",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "8 de Marzo, 2026",
+    "titulo": "Evangelismo Urbano",
+    "descripcion": "",
+    "departamento": "JNI Distrito",
+    "sede": "",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "14 de Marzo, 2026",
+    "titulo": "Congreso de mujeres",
+    "descripcion": "",
+    "departamento": "DNI Distrito",
+    "sede": "León Gto.",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "28 de Marzo, 2026",
+    "titulo": "3er Competencia Esgrima",
+    "descripcion": "",
+    "departamento": "JNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "28 de Marzo, 2026",
+    "titulo": "Máxima Misión",
+    "descripcion": "",
+    "departamento": "MNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "18 de Abril, 2026",
+    "titulo": "MEBI - 1er competencia",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "25 de Abril, 2026",
+    "titulo": "4a Competencia Esgrima",
+    "descripcion": "",
+    "departamento": "JNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "30 de Abril al 2 de Mayo, 2026",
+    "titulo": "Expo Naz",
+    "descripcion": "",
+    "departamento": "Área Mexico",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "16 de Mayo, 2026",
+    "titulo": "5a Competencia Esgrima / Culto Unido",
+    "descripcion": "",
+    "departamento": "JNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "23 de Mayo, 2026",
+    "titulo": "Máxima Misión",
+    "descripcion": "",
+    "departamento": "MNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "23 de Mayo, 2026",
+    "titulo": "Eliminatoria de Esgrima",
+    "descripcion": "",
+    "departamento": "JNI Distrito",
+    "sede": "",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "30 de Mayo, 2026",
+    "titulo": "MEBI - 2a competencia",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "6 de Junio, 2026",
+    "titulo": "Reunión líderes",
+    "descripcion": "",
+    "departamento": "JNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "27 de Junio, 2026",
+    "titulo": "CAFÉ",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "4 de Julio, 2026",
+    "titulo": "MEBI - Final",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "11 de Julio, 2026",
+    "titulo": "Noche de talentos",
+    "descripcion": "",
+    "departamento": "JNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "24-26 de Julio, 2026",
+    "titulo": "Campamento infantil",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Campamento Vida Nueva",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "18 de Julio al 3 de Agosto, 2026",
+    "titulo": "Gira misionera",
+    "descripcion": "",
+    "departamento": "MNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "21-22 de Julio, 2026",
+    "titulo": "Weekend Adolescentes",
+    "descripcion": "",
+    "departamento": "JNI Distrito",
+    "sede": "",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "30 de Julio al 1 de Agosto, 2026",
+    "titulo": "JNI Congreso Nacional Juvenil",
+    "descripcion": "",
+    "departamento": "JNI Nacional",
+    "sede": "Distrito Occidente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "22 de Agosto, 2026",
+    "titulo": "Niños construyendo",
+    "descripcion": "",
+    "departamento": "MNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "29 de Agosto, 2026",
+    "titulo": "Plenitud de vida",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "11 de Septiembre, 2026",
+    "titulo": "Culto de acción de gracias",
+    "descripcion": "",
+    "departamento": "MNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "12 de Septiembre, 2026",
+    "titulo": "Varones",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "12 de Septiembre, 2026",
+    "titulo": "Noche mexicana",
+    "descripcion": "",
+    "departamento": "JNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "19 de Septiembre, 2026",
+    "titulo": "Mujeres",
+    "descripcion": "",
+    "departamento": "DNI Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "25-26 de Septiembre, 2026",
+    "titulo": "Congreso de alabanza",
+    "descripcion": "",
+    "departamento": "JNI Distrito",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "10 de Octubre, 2026",
+    "titulo": "Zona Jalisco - Triconvención anual",
+    "descripcion": "",
+    "departamento": "Zona",
+    "sede": "Pendiente",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "17 de Octubre, 2026",
+    "titulo": "Triconvención Distrital",
+    "descripcion": "",
+    "departamento": "Distrito",
+    "sede": "Torre fuerte León, Gto.",
+    "horario": "",
+    "audiencia": ""
+  },
+  {
+    "fecha": "30-31 de Octubre, 2026",
+    "titulo": "Level Up Lideres",
+    "descripcion": "",
+    "departamento": "JNI",
+    "sede": "",
+    "horario": "",
+    "audiencia": ""
   }
 ]
