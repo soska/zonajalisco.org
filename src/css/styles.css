@@ -1,3 +1,57 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  /* --color-jalisco-red: #c8102e;
+  --color-jalisco-gold: #f2a900;
+  --color-jalisco-blue: #003087; */
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+.jni-zona-badge {
+  color: var(--color-white);
+  background-color: var(--color-red-500);
+}
+
+.jni-distrito-badge {
+  color: var(--color-yellow-300);
+  background-color: var(--color-red-600);
+}
+
+
+.dni-zona-badge {
+  color: var(--color-white);
+  background-color: var(--color-green-600);
+}
+
+.dni-distrito-badge {
+  color: var(--color-yellow-300);
+  background-color: var(--color-green-700);
+}
+
+
+.mni-distrito-badge {
+  color: var(--color-yellow-300);
+  background-color: var(--color-purple-800);
+}
+
+.mni-zona-badge {
+  color: var(--color-white);
+  background-color: var(--color-purple-700);
+}

@@ -9,7 +9,7 @@
   </head>
   <body class="bg-gray-50 min-h-screen flex flex-col">
     <!-- Header -->
-    <header class="bg-white text-gray-500 p-4 border-b border-gray-200 shadow-sm sticky top-0 z-10">
+    <header class="bg-white text-gray-500 p-4 border-b border-gray-200 shadow-xs sticky top-0 z-10">
       <header class="container mx-auto flex gap-2">
         <h1 class="font-bold text-gray-700 pr-2 border-r border-gray-200">Zona Jalisco</h1>
         <h2 class="text-gray-600">{{ subtitle | default("Calendario de Eventos") }}</p>
@@ -20,7 +20,7 @@
 
       <!-- Navigation -->
       {% if showBackLink %}
-        <nav class="bg-white shadow">
+        <nav class="bg-white shadow-sm">
           <div class="container mx-auto px-4 py-3">
             <a href="/" class="text-jalisco-blue hover:underline inline-flex items-center gap-1">{{ arrowLeft() }} Volver a todos los eventos</a>
           </div>

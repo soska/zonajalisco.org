@@ -15,7 +15,7 @@ folder %}
     <header class="flex flex-col gap-2">
       <a
     href="/departamento/{{ event.departamento | slugify }}/"
-    class="text-white/80 hover:text-white bg-blue-600 hover:bg-orange-600 py-1 px-2 rounded-md text-sm inline-block visited:bg-purple-700 self-start transition-colors">
+    class="text-white/80 hover:text-white bg-blue-600 hover:bg-orange-600 py-1 px-2 rounded-md text-sm inline-block visited:bg-purple-700 self-start transition-colors {{ event.departamento | slugify }}-badge">
         {{ event.departamento }}
       </a>
       <h3 class="text-xl font-bold text-gray-800 mb-2">{{ event.titulo }}</h3>
