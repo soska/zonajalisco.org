@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: Iglesias
+subtitle: Directorio de iglesias
+permalink: /churches/
+---
+{% from "icons.njk" import mapPin, phone, mail %}
+
+<section>
+  <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">Directorio de Iglesias</h2>
+
+  <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    {% for church in churches %}
+    <div class="bg-white rounded-lg shadow-sm p-6 border border-gray-200 hover:shadow-md transition-shadow">
+      <h3 class="text-xl font-bold text-gray-800 mb-4">
+        <a href="/sede/{{ church.id }}/" class="hover:text-blue-700">{{ church.nombre }}</a>
+      </h3>
+      <div class="space-y-3 text-sm">
+        {% if church.direccion %}
+        <div class="flex items-start gap-2">
+          <span class="text-gray-500 mt-0.5">{{ mapPin() }}</span>
+          <span class="text-gray-700">{{ church.direccion }}</span>
+        </div>
+        {% endif %}
+        {% if church.telefono %}
+        <div class="flex items-center gap-2">
+          <span class="text-gray-500">{{ phone() }}</span>
+          <a href="tel:{{ church.telefono }}" class="text-blue-700 hover:underline hover:text-orange-700">{{ church.telefono }}</a>
+        </div>
+        {% endif %}
+        {% if church.email %}
+        <div class="flex items-center gap-2">
+          <span class="text-gray-500">{{ mail() }}</span>
+          <a href="mailto:{{ church.email }}" class="text-blue-700 hover:underline hover:text-orange-700">{{ church.email }}</a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
